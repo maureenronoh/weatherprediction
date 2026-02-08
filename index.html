@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kenya Weather Forecast</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter Kenyan city name..." aria-label="City name">
+            <button id="searchBtn" aria-label="Search weather">Search</button>
+        </div>
+        <div class="quick-cities">
+            <button class="city-btn" data-city="Nairobi">Nairobi</button>
+            <button class="city-btn" data-city="Mombasa">Mombasa</button>
+            <button class="city-btn" data-city="Kisumu">Kisumu</button>
+            <button class="city-btn" data-city="Nakuru">Nakuru</button>
+            <button class="city-btn" data-city="Eldoret">Eldoret</button>
+            <button class="city-btn" data-city="Malindi">Malindi</button>
+            <button class="city-btn" data-city="Thika">Thika</button>
+            <button class="city-btn" data-city="Kitale">Kitale</button>
+            <button class="city-btn" data-city="Garissa">Garissa</button>
+            <button class="city-btn" data-city="Kakamega">Kakamega</button>
+            <button class="city-btn" data-city="Nyeri">Nyeri</button>
+            <button class="city-btn" data-city="Meru">Meru</button>
+            <button class="city-btn" data-city="Naivasha">Naivasha</button>
+            <button class="city-btn" data-city="Kericho">Kericho</button>
+            <button class="city-btn" data-city="Machakos">Machakos</button>
+            <button class="city-btn" data-city="Lamu">Lamu</button>
+            <button class="city-btn" data-city="Kilifi">Kilifi</button>
+            <button class="city-btn" data-city="Bungoma">Bungoma</button>
+            <button class="city-btn" data-city="Embu">Embu</button>
+            <button class="city-btn" data-city="Nanyuki">Nanyuki</button>
+        </div>
+        <button id="loadAllBtn" class="load-all-btn">Load All Kenya Cities</button>
+        <div id="weatherContainer"></div>
+        <div id="error" class="error hidden"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
